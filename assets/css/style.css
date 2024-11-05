@@ -29,6 +29,38 @@
     background-color: green;
 }
 
+/*Special paddings/margins/text*/
+h1,h2,h3,h4{
+    margin: 0;
+}
+
+.uppercase{
+    text-transform: uppercase;
+}
+
+.general-sub{
+    font-family: "Exo", sans-serif;
+    font-weight: 300;
+    color: #fafafa;
+}
+
+.inline-block{
+    display: inline-block;
+}
+
+.section-column{
+    display: table-cell;
+    padding: 0 30px 30px;
+    float: none;
+}
+
+.section-heading{
+    font-family: "Exo", sans-serif;
+    font-weight: 300;
+    margin-top: 25px;
+    margin-bottom: 40px;
+}
+
 /*Heading*/
 header{
     margin: 0;
@@ -115,38 +147,6 @@ header{
 .hvr-sweep-to-bottom:before{
     background-color: rgba(0,0,0,0.2);
     height: 120px;
-}
-
-/*Special paddings/margins/text*/
-h1,h2,h3,h4{
-    margin: 0;
-}
-
-.uppercase{
-    text-transform: uppercase;
-}
-
-.general-sub{
-    font-family: "Exo", sans-serif;
-    font-weight: 300;
-    color: #fafafa;
-}
-
-.inline-block{
-    display: inline-block;
-}
-
-.section-column{
-    display: table-cell;
-    padding: 0 30px 30px;
-    float: none;
-}
-
-.section-heading{
-    font-family: "Exo", sans-serif;
-    font-weight: 300;
-    margin-top: 25px;
-    margin-bottom: 40px;
 }
 
 /*Footer*/
@@ -242,4 +242,20 @@ footer{
 .personal-info-item .value{
     position: relative;
     width: 60%;
+}
+
+/*Skills*/
+.progress{
+    position: relative;
+    height: 25px;
+    margin-bottom: 4px;
+}
+
+.progress-type{
+    position: absolute;
+    left: 0px;
+    font-weight: 400;
+    padding: 3px 30px 2px 10px;
+    color: #fafafa;
+    background-color: rgba(25,25,25,0.2);
 }
