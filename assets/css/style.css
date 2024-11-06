@@ -245,6 +245,10 @@ footer{
 }
 
 /*Skills*/
+.progress-section{
+    margin: 40px 20px;
+}
+
 .progress{
     position: relative;
     height: 25px;
@@ -257,5 +261,5 @@ footer{
     font-weight: 400;
     padding: 3px 30px 2px 10px;
     color: #fafafa;
-    background-color: rgba(25,25,25,0.2);
+    background-color: rgba(25, 25, 25, 0.2);
 }
